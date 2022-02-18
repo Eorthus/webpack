@@ -2,6 +2,13 @@ import { printError, printREsult } from './printResult.js'
 import getDateDiff from './getDateDiff.js'
 import showf from './show.js'
 import timeer from './timer.js';
+const smthn = require('../sound.mp3');
+
+import '../style.css';
+import '../style.scss';
+
+
+//import xor from 'lodash/xor'
 
 const form = document.getElementById('datecalc')
 showf();
@@ -22,3 +29,9 @@ form.onsubmit = (event) => {
     printREsult(dateDiff)
   }
 }
+<<<<<<< Updated upstream
+=======
+import chunk from 'lodash/chunk';
+console.log(chunk(['a', 'b', 'c', 'd'], 2));
+
+>>>>>>> Stashed changes
