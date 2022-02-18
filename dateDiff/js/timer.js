@@ -6,6 +6,7 @@ let buttonS = document.getElementById("stop");// Берём кнопку зап�
 var isPaused;
 var timeMinut;
 
+
 buttonR.addEventListener('click', function (event) {
     if (!isPaused) {
         timeMinut = timerM.value * 60 + timerS.value;
