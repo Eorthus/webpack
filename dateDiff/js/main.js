@@ -22,3 +22,4 @@ form.onsubmit = (event) => {
     printREsult(dateDiff)
   }
 }
+
